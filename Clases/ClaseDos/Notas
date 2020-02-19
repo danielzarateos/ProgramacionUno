@@ -1,0 +1,10 @@
+#CamelCase
+#Lamar las carpetas en mayusculas usando _ como separador, solo se usa cuando son variables que no cambian
+#nocambia
+NOMBRE_EMPRESA =
+#cambia
+edadEmpresa =
+#Entradas de usuario se definen con _ antes
+#Ingresado
+_edadPersosa = 2
+#El input es un mensaje de solicitud
