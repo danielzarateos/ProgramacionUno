@@ -11,8 +11,6 @@ MENSAJE_SOBREPESO = " indica que esta en sobrepeso "
 MENSAJE_OBESO = " indica que esta obeso "
 MENSAJE_ERROR = " Alguno de los datos fue ingresado erroneamente "
 MENSAJE_DESPEDIDA = " Gracias por usar la calculadora de imc"
-
-
 #--------No Variables-----------
 INSUFICIENTE = 18.4
 NORMAL = 24.9
