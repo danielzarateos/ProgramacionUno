@@ -4,7 +4,7 @@
 PREGUNTA_NOMBRE = " Bienvenido, ingresa tu nombre por favor \n: "
 PREGUNTA_MASA = " ingresa tu masa "
 PREGUNTA_ESTATURA = " ingresa tu estatura "
-MENSAJE_PREVIO_IMC = " Su imc es de  "
+MENSAJE_PREVIO_IMC = " su imc es de  "
 MENSAJE_INSUFICIENTE = " indica que esta en insuficiencia "
 MENSAJE_NORMAL = " indica que esta bien "
 MENSAJE_SOBREPESO = " indica que esta en sobrepeso "
@@ -28,7 +28,7 @@ _nombreUsuario = input(PREGUNTA_NOMBRE)
 _estaturaUsuario = float(input(PREGUNTA_ESTATURA))
 _pesoUsuario = float(input(PREGUNTA_MASA))
 IMC = (_pesoUsuario/_estaturaUsuario**2)
-print(MENSAJE_PREVIO_IMC, IMC,)
+print(_nombreUsuario, MENSAJE_PREVIO_IMC, IMC,)
 if (IMC >= 0) and (IMC <= INSUFICIENTE) :
     print(MENSAJE_INSUFICIENTE)
 elif (IMC > INSUFICIENTE) and (IMC <= NORMAL) :
