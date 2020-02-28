@@ -31,5 +31,5 @@ else :
         print(MENSAJE_ALERTA)
     if  _temperaturaUsuario >= TEMPERATURA_ALERTA :
         print(MENSAJE_PELIGRO)
-    else :
+    elif _temperaturaUsuario < 0 :
         print(MENSAJE_NEGATIVA)
