@@ -8,12 +8,12 @@ PAIS_OBSERVACION_3 = "Iran"
 #-------------Mensajes-------------
 MENSAJE_TEMPERATURA = "Por favor ingrese la temperatura del usuario \n :"
 MENSAJE_PAIS_ORIGEN = "Por favor ingrese el pais del que viene (primera letra en mayuscula y sin tildes) \n :"
-MENSAJE_NEGATIVA = "El usuario no puede tener temperaturas negativas"
-MENSAJE_HIPOTERMIA = "El usuario esta en estado de hipotermia"
-MENSAJE_SALUDABLE = "El usuario esta en estado saludable"
-MENSAJE_ALERTA = "El usuario esta en estado de alerta"
-MENSAJE_PELIGRO = "El usuario esta en estado de peligro"
-MENSAJE_OBSERVACION = "El usuario esta en estado de observacion"
+MENSAJE_NEGATIVA = "El usuario parece estar muerto o el sensor malo, verifique."
+MENSAJE_HIPOTERMIA = "El usuario esta en estado de hipotermia."
+MENSAJE_SALUDABLE = "El usuario esta en estado saludable."
+MENSAJE_ALERTA = "El usuario esta en estado de alerta."
+MENSAJE_PELIGRO = "El usuario esta en estado de peligro."
+MENSAJE_OBSERVACION = "El usuario esta en estado de observacion."
 #-------------Entradas-------------
 _paisOrigenUsuario = ""
 _temperaturaUsuario = 0
