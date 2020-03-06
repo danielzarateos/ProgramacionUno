@@ -1,7 +1,7 @@
 #----------Importar--------
 import random   
 #----------Mensajes--------
-MENSAJE_NO = "La suma no es"
+MENSAJE_NO = "La suma es"
 MENSAJE_SI = "La suma no es 12"
 #----------Numeros---------
 dado1 = random.randint(1,6)
