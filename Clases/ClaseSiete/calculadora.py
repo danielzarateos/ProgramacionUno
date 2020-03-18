@@ -14,8 +14,3 @@ def dividir(x,y) :
     else :
         division = x / y
     return division
-
-print(sumar(2,2))
-print(restar(2,23))
-print(multiplicar(3,7))
-print(dividir(25,0))
