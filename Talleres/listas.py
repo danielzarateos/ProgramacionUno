@@ -2,7 +2,7 @@
 listaEdadesIniciales = [1,2,4,8,16,32,64]
 #Se le pide que cree una lista de edad de pacientes que ingresan el día de hoy al hospital mediante preguntar al usuario del programa las edades de los nuevos pacientes, el usuario determinará cuando a agregado todos.
 listaEdadesHoy = []
-_seleccion_usuario = str(input("¿Desea usted ingresar la edad de algun usuario que haya ingresado hoy? (si o no) : "))
+_seleccion_usuario2 = str(input("¿Desea usted ingresar la edad de algun usuario que haya ingresado hoy? (si o no) : "))
 while _seleccion_usuario == "si" :
     listaEdadesHoy.append(int(input("Ingrese la edad a adicionar : ")))
     _seleccion_usuario = str(input("¿Desea añadir otra edad? (si o no) : "))
