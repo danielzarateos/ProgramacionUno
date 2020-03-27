@@ -16,6 +16,9 @@ while ( _seleccion_usuario != 4 ) :
         _seleccion_usuario2 = str(input("¿Desea usted ingresar el peso de algun paciente ? (si o no) : "))
         while _seleccion_usuario2 == "si" :
             pesosPacientesIniciales.append(int(input("Ingrese el peso a adicionar : ")))
+            presionesPacientes = []
+            for i in range (len(pesosPacientesIniciales)) :
+                presionesPacientes.append(pesosPacientesIniciales[i] * 6)
             _seleccion_usuario2 = str(input("¿Desea añadir otro peso? (si o no) : "))
         print("Nueva lista de pesos de pacientes : \n", pesosPacientesIniciales)
     elif _seleccion_usuario == 3 :
