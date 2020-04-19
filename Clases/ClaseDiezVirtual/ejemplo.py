@@ -1,8 +1,8 @@
 import funciones_lectura_archivos as helper
 ##Leimos el archivo
-lineas= helper.leer_archivo("Libro.txt")
+#lineas= helper.leer_archivo("Libro.txt")
 #Lo mostramos linea por linea
-helper.mostrar_lineas(lineas)
+#helper.mostrar_lineas(lineas)
 
 Texto = ["Hola este es mi primer archivo creado en python\n",
 "Espero que funcione bien!! \n",
