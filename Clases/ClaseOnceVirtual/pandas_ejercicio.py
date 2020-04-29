@@ -24,7 +24,7 @@ print(mayor_nombre)
 mayor_nombre = max(diccionario["Nombre"].values(), key=len)
 menor_nombre = min(diccionario["Nombre"].values(), key=len)
 
-print("El estudiante con el nombre mas largo es {} y el que tiene el nombre mas corto es".format(mayor_nombre,menor_nombre))
+print("El estudiante con el nombre mas largo es {} y el que tiene el nombre mas corto es {}".format(mayor_nombre,menor_nombre))
 
 #Por la edad mas grande y mas pequeña
 mayor_edad = max(diccionario["Edad"].values())
