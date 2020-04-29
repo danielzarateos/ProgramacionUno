@@ -15,7 +15,7 @@ import pandas as pd
 diccionario = pd.read_csv("estudiantes.csv",encoding="UTF-8",header = 0,delimiter=";").to_dict()
 print(diccionario)
 print(diccionario.keys())
-print(diccionario.["Nombre"])
+print(diccionario["Nombre"])
 
 #Por el nombre mas largo
 mayor_nombre = max(diccionario["Nombre"].values)
